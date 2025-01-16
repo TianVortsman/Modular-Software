@@ -1,0 +1,92 @@
+/* Root Variables */
+:root {
+    /* Colors */
+    --color-background: hsl(220 27% 6%);        /* Default background color */
+    --color-text-light: #ffffff;        /* Light text color */
+    --color-text-dark: #000000;         /* Dark text color */
+    --color-primary: #FFD700;           /* Primary accent color */
+    --color-hover: #FFC107;             /* Hover color for interactive elements */
+    --color-secondary: #333;            /* Secondary background color */
+
+    /* Fonts */
+    --font-primary: 'Roboto', sans-serif;   /* Primary font */
+    --font-secondary: 'Verdana', sans-serif; /* Secondary font */
+    --font-size-base: 16px;                /* Base font size */
+    --font-size-small: 14px;               /* Small text size */
+    --font-size-large: 18px;               /* Large text size */
+    --line-height: 1.5;                    /* Line height */
+
+    /* Spacing */
+    --spacing-small: 0.5rem;               /* Small spacing */
+    --spacing-medium: 1rem;                /* Medium spacing */
+    --spacing-large: 2rem;                 /* Large spacing */
+
+    /* Border Radius */
+    --radius-small: 4px;                   /* Small rounded corners */
+    --radius-medium: 8px;                  /* Medium rounded corners */
+    --radius-large: 16px;                  /* Large rounded corners */
+
+    /* Shadows */
+    --shadow-light: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    --shadow-medium: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Medium shadow */
+    --shadow-dark: 0px 6px 12px rgba(0, 0, 0, 0.3);  /* Dark shadow */
+
+    /* Transitions */
+    --transition-speed: 0.5s;              /* Transition speed for hover effects */
+
+    /* Layout */
+    --max-width: 1200px;                   /* Max width for content */
+    --sidebar-width: 230px;                /* Sidebar width */
+    --header-height: 60px;                 /* Header height */
+    --footer-height: 50px;                 /* Footer height */
+
+    /* Z-Index */
+    --z-index-header: 1000;                /* Header z-index */
+    --z-index-modal: 2000;                 /* Modal z-index */
+    --z-index-tooltip: 3000;               /* Tooltip z-index */
+
+    /* Modules */
+    --module-card-padding: 1rem;           /* Padding for module cards */
+    --module-card-border-radius: 10px;     /* Border radius for module cards */
+}
+
+/* Light Mode Variables */
+:root.light-mode {
+    --color-background: hsl(235 5% 85%); /* Light background */
+    --color-text-light: #000000;         /* Dark text color */
+    --color-primary: #007BFF;           /* Primary accent color */
+    --color-primary-fade:rgba(0, 123, 255, 0.3); /* Primary accent color with opacity */           
+    --color-hover: #0056b3;              /* Darker Blue */
+    --color-secondary: #f0f0f0;          /* Light grey for containers */
+    --color-text-dark: #333333;          /* Secondary text */
+    --text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    --color-h2: #000000;                 /* H2 color */
+    --chart-bar-paid: #4CAF50; /* Light mode bar color for paid */
+    --chart-bar-overdue: #F44336; /* Light mode bar color for overdue */
+    --chart-grid-color: rgba(0, 0, 0, 0.2); /* Light mode grid lines */
+    --chart-text-color: #000000; /* Light mode text */
+}
+
+
+
+:root.dark-mode {
+    --color-background: hsl(220 27% 6%); /* Dark background */
+    --color-text-light: #ffffff;         /* Light text on dark mode */
+    --color-primary: #FFD700;            /* Primary accent color */
+    --color-hover: #FFC107;              /* Hover color for interactive elements */
+    --color-primary-fade: #333; /* Primary accent color with opacity */
+    --color-secondary: #333;             /* Dark secondary background */
+    --color-text-dark: #000000;         /* Dark text remains black */
+    --color-h2: #FFD700;                 /* H2 color */
+    --chart-bar-paid: #4CAF50; /* Dark mode bar color for paid */
+    --chart-bar-overdue: #F44336; /* Dark mode bar color for overdue */
+    --chart-grid-color: rgba(255, 255, 255, 0.2); /* Dark mode grid lines */
+    --chart-text-color: #FFFFFF; /* Dark mode text */
+    --input-bg:#2C2C2E;
+    --border-color:#4A4A4D;
+    --btn-bg:#4A4A4D;
+}
+
+.hidden {
+    display: none;
+}
